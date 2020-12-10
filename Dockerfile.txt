@@ -2,7 +2,7 @@ FROM node:7
 	
 WORKDIR /app
 	
-COPY usinfform.js /app
+COPY usingform.js /app
 	
 RUN npm install
 	
