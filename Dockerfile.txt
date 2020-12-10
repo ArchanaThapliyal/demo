@@ -1,0 +1,11 @@
+FROM node:7
+	
+WORKDIR /app
+	
+COPY usinfform.js /app
+	
+RUN npm install
+	
+COPY ./app
+	
+CMD  node serverdemo.js
